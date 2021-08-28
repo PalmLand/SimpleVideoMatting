@@ -1,1 +1,2 @@
-
+1. run `python index.py --dataset D:/A/Python/Datasets/CV/Segmentation/PersonSeg/background/ --index index.csv` to generate a csv file containing each image's hsv features.
+2. run 'python search.py --index index.csv --limit 15 --query ./whiteBG/train_5026.jpg.png --result-path D:/A/Python/Datasets/CV/Segmentation/PersonSeg/background/ --save-path D:/A/Python/Datasets/CV/Segmentation/PersonSeg/whiteBG/' to search images that have similar hsv features.
